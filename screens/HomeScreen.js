@@ -7,6 +7,7 @@ import {
   Text,
   TouchableOpacity,
   View,
+  DatePickerIOS
 } from 'react-native';
 import { WebBrowser } from 'expo';
 
@@ -37,7 +38,7 @@ export default class HomeScreen extends React.Component {
 
             <Text style={styles.getStartedText}>Welcome to Out2Night!</Text>
             <View>
-              
+
             </View>
             <TouchableOpacity onPress={this._handleHelpPress} style={styles.helpLink}>
               <Text style={styles.helpLinkText}>HOOK ME UP</Text>
